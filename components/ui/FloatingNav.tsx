@@ -50,7 +50,7 @@ export const FloatingNav = ({
           exit={{ y: -100, opacity: 0 }}
           transition={{ duration: 0.2 }}
           className={cn(
-            "flex max-w-fit fixed top-1 inset-x-0 mx-auto border rounded-full shadow-lg z-[5000] px-8 py-4 bg-white dark:bg-neutral-800 gap-4",
+            "flex max-w-fit fixed top-1 inset-x-0 mx-auto border rounded-full shadow-lg z-[5000] px-8 py-4  bg-neutral-800 gap-4",
             className
           )}
         >
@@ -59,7 +59,7 @@ export const FloatingNav = ({
               key={`link-${idx}`}
               href={navItem.link}
               className={cn(
-                "relative flex items-center space-x-2 text-neutral-600 dark:text-neutral-50 dark:hover:text-neutral-300 hover:text-neutral-800 transition-colors duration-200"
+                "relative flex items-center space-x-2 text-neutral-50 hover:text-neutral-300  transition-colors duration-200"
               )}
             >
               <span>{navItem.icon}</span>

@@ -1,5 +1,4 @@
 import Hero from "@/components/Hero";
-import { ModeToggle } from "@/components/mode-toggle";
 import { IoHomeOutline } from "react-icons/io5";
 import { FloatingNav } from "@/components/ui/FloatingNav";
 import Grid from "@/components/Grid";
